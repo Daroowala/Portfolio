@@ -38,7 +38,16 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    position: fixed;
-    bottom: 0px;
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    header, nav, section, footer {
+        padding: 10px;
+    }
+    
+    nav li{
+        display: inline;
+        margin: 10px 0px;
+    }
 }
